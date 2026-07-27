@@ -1,4 +1,4 @@
-# 🧠 Next Word Predictor using LSTM
+#  Next Word Predictor using LSTM
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -9,7 +9,7 @@ An interactive, deep-learning-powered natural language processing (NLP) web appl
 
 ---
 
-## 💭 The "Why" & Architecture Planning
+##  The "Why" & Architecture Planning
 
 When starting this project, the primary goal wasn't just to build another text generator—it was to look under the hood of sequence modeling and genuinely understand how recurrent neural networks handle vanishing gradients and contextual memory over sequential time steps. 
 
