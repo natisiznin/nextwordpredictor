@@ -33,3 +33,25 @@ When starting this project, the primary goal wasn't just to build another text g
         │
         ▼  (Streamlit @st.cache_resource)
 [ Real-Time Web App Interface ]
+
+### files structure
+
+nextwordpredictor/
+│
+├── app/
+│   ├── __init__.py       # Package initializer
+│   └── main.py           # Streamlit UI & real-time inference logic
+│
+├── components/
+│   ├── preprocess.py     # Text cleaning, tokenization, & sequence padding
+│   └── train.py          # LSTM model architecture definition & training loop
+│
+├── models/
+│   ├── lstm_next_word_model.keras   # Saved HDF5/Keras model artifact
+│   └── tokenizer.pkl                # Pickled word-to-index vocabulary mapping
+│
+├── data/
+│   └── corpus.txt        # Raw text training corpus
+│
+├── requirements.txt      # Project dependency list
+└── README.md             # Project documentation
