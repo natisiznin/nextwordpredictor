@@ -33,6 +33,7 @@ When starting this project, the primary goal wasn't just to build another text g
         │
         ▼  (Streamlit @st.cache_resource)
 [ Real-Time Web App Interface ]
+```
 
 ### files structure
 
